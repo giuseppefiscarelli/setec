@@ -3,6 +3,12 @@
     <br> {{'tes tan guPIPe' | lowercase | titlecase}}
     <br>
     <p>io ho {{ 4500.50 | currency:'EUR':'code':'4.2-4':'it-IT'}}</p>
+    <p>es pipe data short {{birthDate | date:'short'}}</p>
+    <p>es pipe data long {{birthDate | date:'long'}}</p>
+    <p>es pipe data ddmmyyyy {{birthDate | date:'dd/mm/yyyy'}}</p>
+    <p>es pipe data ddmmyyyy {{birthDate | date:'dd/mm/yyyy hh:mm:ss' }}</p>
+    <p>es pipe data full {{birthDate | date:'fullDate'}}</p>
+    <p>es pipe data full {{birthDate | date:'fullDate':'+2':'it-IT'}}</p>
 
 
 </div>
